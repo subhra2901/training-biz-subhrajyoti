@@ -284,3 +284,7 @@ cat ~/.bash_history  -n
 ls
 #1727354505
 cat commandslist.txt  -n
+#1727354529
+crontab -e
+#1727354549
+sudo grep CRON /var/log/cron
