@@ -1,0 +1,190 @@
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum install oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+ls
+sqlplus
+sqlplus classicmodels/classicmodels
+imp classicmodels/classicmodels FILE=home/ec2-user/classicmodels.dmp log=home/ec2-user/import.log
+cd -
+imp classicmodels/classicmodels FILE=./classicmodels.dmp 
+imp classicmodels/classicmodels FULL=Y FILE=./classicmodels.dmp 
+sqlplus
+pwd
+cd ..
+ls
+clear
+sudo adduser subhrajyoti
+passwd subhrajyoti
+sudo su
+exit
+sudo su
+exit
+#1727275211
+history
+#1727275244
+export HISTTIMEFORMAT="%F %T "
+#1727275270
+source ~/.bashrc
+#1727275284
+history > commandslist.txt
+#1727275288
+ls
+#1727275329
+vi commmandslist.txt
+#1727275347
+exit
+sudo yum update
+sudo yum install git -y
+git --vesion
+git --version
+git config --global user.name subhra2901
+git config --global user.email subhrajyotin195@gmail.com
+git config --list
+ls
+mkdir cloneassignment
+exit
+ls
+cd cloneassignment/
+git clone [200~
+git clone https://github.com/subhra2901/training-biz-subhrajyoti
+ls
+cd training-biz-subhrajyoti/
+ls
+cd ..
+cd training-biz-subhrajyoti/
+touch git_cron_job.sh
+ls -a
+vi git_cron_job.sh 
+cat home/ec2-user/commandslist.txt > home/ec2-user/cloneassignment/training-biz-subhrajyoti/commandslist.txt
+touch commandslist.txt
+cat home/ec2-user/commandslist.txt > home/ec2-user/cloneassignment/training-biz-subhrajyoti/commandslist.txt
+ls
+cd ..
+pwd
+cat /home/ec2-user/commandslist.txt > /home/ec2-user/cloneassignment/training-biz-subhrajyoti/commandslist.txt
+cd training-biz-subhrajyoti/
+vi commandslist.txt 
+vi git_cron_job.sh 
+vi commandslist.txt 
+vi git_cron_job.sh 
+chmod 700 git_cron_job.sh 
+crontab -e
+crontab -l
+cd ..
+pwd
+ssh-keygen -t rsa -b 4096 -C "subhrajyotin195@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+cd cloneassignment/
+cd training-biz-subhrajyoti/
+git remote set-url origin git@github.com:subhra2901/training-biz-subhrajyoti.git
+git remote -v
+ssh -T git@github.com
+git branch --unset-upstream
+git push --set-upstream origin main
+ls
+v git_cron_job.sh 
+vi commandslist.txt 
+vi git_cron_job.sh 
+./git_cron_job.sh 
+crontab -e
+vi git_cron_job.sh 
+vi ~/.bashrc\
+vi ~/.bashrc
+./git_cron_job.sh 
+vi f
+git git_cron_job.sh 
+vi git_cron_job.sh 
+./git_cron_job.sh 
+crontab -e
+./git_cron_job.sh 
+histasdf
+s
+sd
+sfs
+crontab -e
+ls
+crontab -e
+sfs
+s
+vi git_cron_job.sh 
+sudo grep CRON /var/log/cron
+crontab -e
+as
+s
+sdf
+f
+s
+we
+sudo grep CRON /var/log/cron
+ls
+git pull origin main
+git -c . pull origin main
+git status
+sudo grep CRON /var/log/cron
+crontab -e
+sudo grep CRON /var/log/cron
+f
+fs
+a
+er
+tghj
+hgds
+sudo grep CRON /var/log/cron
+crontab -e
+sudo grep CRON /var/log/cron
+vi git_cron_job.sh 
+vi git_cron_job.sh asssfaf
+as
+s
+sf
+s
+f
+se
+f
+sudo grep CRON /var/log/cron
+vi git_cron_job.sh 
+sudo grep CRON /var/log/cron
+s
+f
+h
+ls
+hi
+sudo grep CRON /var/log/cron
+./git_cron_job.sh 
+vi git_cron_job.sh 
+sudo grep CRON /var/log/cron
+./git_cron_job.sh 
+s
+f
+h
+s
+sudo grep CRON /var/log/cron
+./git_cron_job.sh 
+vi git_cron_job.sh 
+vi ~/.bashrc 
+./git_cron_job.sh 
+vi ~/.bashrc 
+exit
