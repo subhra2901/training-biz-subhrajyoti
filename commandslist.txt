@@ -1,46 +1,66 @@
-    1  2024-09-25 14:40:06 sudo yum install java-1.8.0-openjdk -y
-    2  2024-09-25 14:40:06 sudo yum install wget -y
-    3  2024-09-25 14:40:06 wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-    4  2024-09-25 14:40:06 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
-    5  2024-09-25 14:40:06 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-    6  2024-09-25 14:40:06 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-    7  2024-09-25 14:40:06 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
-    8  2024-09-25 14:40:06 sudo yum install oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
-    9  2024-09-25 14:40:06 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
-   10  2024-09-25 14:40:06 sudo vi ~/.bash_profile
-   11  2024-09-25 14:40:06 source ~/.bash_profile
-   12  2024-09-25 14:40:06 vi $ORACLE_HOME/cv/admin/cvu_config
-   13  2024-09-25 14:40:06 sudo vi $ORACLE_HOME/cv/admin/cvu_config
-   14  2024-09-25 14:40:06 sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
-   15  2024-09-25 14:40:06 sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
-   16  2024-09-25 14:40:06 sudo fallocate -l 2G /swapfile
-   17  2024-09-25 14:40:06 sudo chmod 600 /swapfile
-   18  2024-09-25 14:40:06 sudo mkswap /swapfile
-   19  2024-09-25 14:40:06 sudo swapon /swapfile
-   20  2024-09-25 14:40:06 sudo swapon --show
-   21  2024-09-25 14:40:06 free -h
-   22  2024-09-25 14:40:06 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-   23  2024-09-25 14:40:06 sudo /etc/init.d/oracle-xe-21c configure
-   24  2024-09-25 14:40:06 sqlplus
-   25  2024-09-25 14:40:06 ls
-   26  2024-09-25 14:40:06 sqlplus
-   27  2024-09-25 14:40:06 sqlplus classicmodels/classicmodels
-   28  2024-09-25 14:40:06 imp classicmodels/classicmodels FILE=home/ec2-user/classicmodels.dmp log=home/ec2-user/import.log
-   29  2024-09-25 14:40:06 cd -
-   30  2024-09-25 14:40:06 imp classicmodels/classicmodels FILE=./classicmodels.dmp 
-   31  2024-09-25 14:40:06 imp classicmodels/classicmodels FULL=Y FILE=./classicmodels.dmp 
-   32  2024-09-25 14:40:06 sqlplus
-   33  2024-09-25 14:40:06 pwd
-   34  2024-09-25 14:40:06 cd ..
-   35  2024-09-25 14:40:06 ls
-   36  2024-09-25 14:40:06 clear
-   37  2024-09-25 14:40:06 sudo adduser subhrajyoti
-   38  2024-09-25 14:40:06 passwd subhrajyoti
-   39  2024-09-25 14:40:06 sudo su
-   40  2024-09-25 14:40:06 exit
-   41  2024-09-25 14:40:06 sudo su
-   42  2024-09-25 14:40:06 exit
-   43  2024-09-25 14:40:11 history
-   44  2024-09-25 14:40:44 export HISTTIMEFORMAT="%F %T "
-   45  2024-09-25 14:41:10 source ~/.bashrc
-   46  2024-09-25 14:41:24 history > commandslist.txt
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum install oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+ls
+sqlplus
+sqlplus classicmodels/classicmodels
+imp classicmodels/classicmodels FILE=home/ec2-user/classicmodels.dmp log=home/ec2-user/import.log
+cd -
+imp classicmodels/classicmodels FILE=./classicmodels.dmp 
+imp classicmodels/classicmodels FULL=Y FILE=./classicmodels.dmp 
+sqlplus
+pwd
+cd ..
+ls
+clear
+sudo adduser subhrajyoti
+passwd subhrajyoti
+sudo su
+exit
+sudo su
+exit
+#1727275211
+history
+#1727275244
+export HISTTIMEFORMAT="%F %T "
+#1727275270
+source ~/.bashrc
+#1727275284
+history > commandslist.txt
+#1727275288
+ls
+#1727275329
+vi commmandslist.txt
+#1727275347
+exit
+sudo yum update
+sudo yum install git -y
+git --vesion
+git --version
+git config --global user.name subhra2901
+git config --global user.email subhrajyotin195@gmail.com
+git config --list
+ls
+mkdir cloneassignment
+exit
