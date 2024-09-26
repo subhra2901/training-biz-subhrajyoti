@@ -272,3 +272,15 @@ cat commandslist.txt -n
 history
 #1727354454
 source ~/.bashrc
+#1727354470
+history 
+#1727354480
+cat ~/.bashrc
+#1727354488
+cat ~/.bash_history 
+#1727354490
+cat ~/.bash_history  -n
+#1727354499
+ls
+#1727354505
+cat commandslist.txt  -n
