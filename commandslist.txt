@@ -188,3 +188,87 @@ vi ~/.bashrc
 ./git_cron_job.sh 
 vi ~/.bashrc 
 exit
+#1727353481
+ls
+#1727353490
+cd cloneassignment/
+#1727353496
+cd training-biz-subhrajyoti/
+#1727353503
+cat commandslist.txt 
+#1727353512
+vi git_cron_job.sh 
+#1727353632
+/bin/bash /home/ec2-user/cloneassignment/training-biz-subhrajyoti/git_cron_job.sh
+#1727353669
+vi git_cron_job.sh 
+#1727353690
+/bin/bash /home/ec2-user/cloneassignment/training-biz-subhrajyoti/git_cron_job.sh
+#1727353741
+export HISTTIMEFORMAT="%F %T "
+#1727353764
+source ~/.bashrc
+#1727353776
+history > commandslist.txt
+#1727353780
+cat commandslist.txt 
+#1727353793
+/bin/bash /home/ec2-user/cloneassignment/training-biz-subhrajyoti/git_cron_job.sh
+#1727353837
+vi ~/.bashrc
+#1727353855
+ls
+#1727353859
+vi git_cron_job.sh 
+#1727353899
+./git_cron_job.sh 
+#1727353937
+cat commandslist.txt 
+#1727353961
+cd..
+#1727353965
+cd ..
+#1727353972
+cat commandslist.txt 
+#1727354019
+cd cloneassignment/
+#1727354025
+cd training-biz-subhrajyoti/
+#1727354031
+vi git_cron_job.sh 
+#1727354205
+crontab -e
+#1727354220
+sudo grep CRON /var/log/cron
+#1727354248
+hi 
+#1727354249
+ls
+#1727354254
+vi rea
+#1727354258
+ls
+#1727354260
+vi README.md 
+#1727354301
+sudo grep CRON /var/log/cron
+#1727354324
+vi ~/.bashrc
+#1727354342
+crontab -l
+#1727354394
+la
+#1727354396
+ls
+#1727354399
+cat commandslist.txt 
+#1727354400
+ls
+#1727354412
+vi git_cron_job.sh 
+#1727354436
+cat commandslist.txt -n
+#1727354441
+history
+#1727354454
+source ~/.bashrc
