@@ -292,3 +292,4 @@ ls
 cd cloneassignment/
 cd training-biz-subhrajyoti/
 ls -a
+ls
