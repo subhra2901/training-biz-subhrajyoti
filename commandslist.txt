@@ -372,3 +372,4 @@ cat file1.txt
 $sed 's/hi/hello/g' file1.txt
 sed 's/hi/hello/g' file1.txt
 free -g
+du -h
