@@ -375,3 +375,6 @@ free -g
 du -h
 df -ah
 top
+clear
+uname -a
+hostname
