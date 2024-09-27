@@ -288,3 +288,7 @@ cat commandslist.txt  -n
 crontab -e
 #1727354549
 sudo grep CRON /var/log/cron
+ls
+cd cloneassignment/
+cd training-biz-subhrajyoti/
+ls -a
