@@ -1,3 +1,1 @@
-# training-biz-subhrajyoti
-
-## helped by ajinkya
+# It Was Very Hard
