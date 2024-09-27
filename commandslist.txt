@@ -349,3 +349,4 @@ ls
 mkdir fileassignment
 touch file1.txt
 touch mycode.sh
+vi mycode.sh 
