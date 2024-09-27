@@ -328,3 +328,5 @@ sudo grep CRON /var/log/cron
 cd ..
 clear
 ls
+cat linux.txt
+cat linuxtut.txt 
