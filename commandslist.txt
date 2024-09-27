@@ -324,3 +324,6 @@ sudo grep CRON /var/log/cron
 git pull
 ls
 cat README.md 
+sudo grep CRON /var/log/cron
+cd ..
+clear
