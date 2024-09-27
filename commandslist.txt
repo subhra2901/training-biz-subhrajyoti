@@ -358,3 +358,9 @@ cat >> file1.txt
 ./mycode.sh file1.txt file2.txt
 cd cloneassignment/
 cd training-biz-subhrajyoti/
+vi git_cron_job.sh 
+cd ..
+cd fileassignment/
+sed file1
+$sed file1.txt
+ls
