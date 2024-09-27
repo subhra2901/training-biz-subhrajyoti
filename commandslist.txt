@@ -295,3 +295,6 @@ ls -a
 ls
 sudo grep CRON /var/log/cron
 crontab -e
+sudo grep CRON /var/log/cron
+ls
+echo "Hi"
