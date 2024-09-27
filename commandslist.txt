@@ -343,3 +343,7 @@ touch temp.txt
 rm temp.txt 
 touch temp.txt
 ls
+rm temp.txt 
+rm linuxtut.txt 
+ls
+mkdir fileassignment
