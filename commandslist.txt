@@ -332,3 +332,10 @@ cat linux.txt
 cat linuxtut.txt 
 vi linuxtut.txt 
 vi commandslist.txt 
+vi linuxtut.txt 
+cd cloneassignment/
+cd ..
+mkdir temp
+cd temp
+cd ..
+rmdir temp
