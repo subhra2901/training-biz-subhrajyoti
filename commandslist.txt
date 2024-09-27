@@ -356,3 +356,5 @@ vi mycode.sh
 ./mycode.sh file1.txt file2.txt
 cat >> file1.txt
 ./mycode.sh file1.txt file2.txt
+cd cloneassignment/
+cd training-biz-subhrajyoti/
