@@ -350,3 +350,9 @@ mkdir fileassignment
 touch file1.txt
 touch mycode.sh
 vi mycode.sh 
+chmod 700 mycode.sh 
+./mycode.sh file1.txt file2.txt
+vi mycode.sh 
+./mycode.sh file1.txt file2.txt
+cat >> file1.txt
+./mycode.sh file1.txt file2.txt
