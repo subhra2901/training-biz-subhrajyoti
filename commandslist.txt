@@ -298,3 +298,5 @@ crontab -e
 sudo grep CRON /var/log/cron
 ls
 echo "Hi"
+expr 8 + 10
+sudo grep CRON /var/log/cron
