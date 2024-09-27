@@ -305,3 +305,22 @@ history
 ls
 ls | grep '.txt'
 sudo grep CRON /var/log/cron
+git pul
+git pull
+ls
+cd c
+cd cloneassignment/
+ls
+cd training-biz-subhrajyoti/
+ls
+git pull
+ls
+vi README.md 
+git pull
+git config pull.rebase false
+vi README.md 
+ls
+sudo grep CRON /var/log/cron
+git pull
+ls
+cat README.md 
