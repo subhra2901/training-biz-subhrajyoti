@@ -339,3 +339,7 @@ mkdir temp
 cd temp
 cd ..
 rmdir temp
+touch temp.txt
+rm temp.txt 
+touch temp.txt
+ls
