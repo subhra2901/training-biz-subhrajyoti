@@ -364,3 +364,10 @@ cd fileassignment/
 sed file1
 $sed file1.txt
 ls
+cd ..
+ls
+sed file1.txt
+$sed file1.txt
+cat file1.txt
+$sed 's/hi/hello/g' file1.txt
+sed 's/hi/hello/g' file1.txt
