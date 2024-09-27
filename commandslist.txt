@@ -330,3 +330,5 @@ clear
 ls
 cat linux.txt
 cat linuxtut.txt 
+vi linuxtut.txt 
+vi commandslist.txt 
