@@ -304,3 +304,4 @@ exit
 history
 ls
 ls | grep '.txt'
+sudo grep CRON /var/log/cron
