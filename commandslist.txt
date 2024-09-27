@@ -371,3 +371,4 @@ $sed file1.txt
 cat file1.txt
 $sed 's/hi/hello/g' file1.txt
 sed 's/hi/hello/g' file1.txt
+free -g
