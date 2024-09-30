@@ -437,3 +437,5 @@ echo "Hello World"
 pwd
 cd ec2-user/
 pwd
+ping example.com
+telnet example.com
