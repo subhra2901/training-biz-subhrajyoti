@@ -419,3 +419,15 @@ cron tab -l
 crontab -l
 grep '.txt'
 grep 'I' file1.txt
+fild . -name file1.txt
+find . -name file1.txt
+cd ..
+ls -a
+cd ..
+ls
+cd ..
+ls
+ls -a
+pwd
+cd home/
+ls -a
