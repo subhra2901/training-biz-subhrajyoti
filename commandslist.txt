@@ -407,3 +407,7 @@ ps -ef
 cd fileassignment/
 less file1.txt
 more file1.txt
+clear
+head file1.txt
+head file2.txt
+tail file2.txt
