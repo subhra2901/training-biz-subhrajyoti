@@ -411,3 +411,9 @@ clear
 head file1.txt
 head file2.txt
 tail file2.txt
+wc file1.txt
+wc -l file1.txt
+wc -l file2.txt
+crontab
+cron tab -l
+crontab -l
