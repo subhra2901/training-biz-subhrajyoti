@@ -404,3 +404,6 @@ rm file2.txt
 rm mycode.sh
 ls
 ps -ef
+cd fileassignment/
+less file1.txt
+more file1.txt
