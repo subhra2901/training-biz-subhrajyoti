@@ -378,3 +378,5 @@ top
 clear
 uname -a
 hostname
+exit
+ls
