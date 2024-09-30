@@ -400,3 +400,7 @@ vi file1.txt
 ./mycode.sh file1.txt file2.txt
 clear
 cd ..
+rm file2.txt
+rm mycode.sh
+ls
+ps -ef
