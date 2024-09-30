@@ -383,3 +383,20 @@ ls
 zip archive.zip file1.txt file2.txt
 ls
 rm file1.txt /fileassignment/file1.txt
+rm file1.txt /home/ec2-user/fileassignment/file1.txt
+ls
+cd fileassignment/
+ls
+touch file1.txt file2.txt mycode.sh
+cd ..
+cat mycode.sh 
+cd fileassignment/
+vi mycode.sh 
+./mycode.sh file1.txt file2.txt
+chmod 700 mycode.sh 
+./mycode.sh file1.txt file2.txt
+vi mycode.sh 
+vi file1.txt
+./mycode.sh file1.txt file2.txt
+clear
+cd ..
