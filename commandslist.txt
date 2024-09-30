@@ -432,3 +432,8 @@ pwd
 cd home/
 ls -a
 ftp ftp.example.com
+clear
+echo "Hello World"
+pwd
+cd ec2-user/
+pwd
