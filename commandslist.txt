@@ -380,3 +380,5 @@ uname -a
 hostname
 exit
 ls
+zip archive.zip file1.txt file2.txt
+ls
