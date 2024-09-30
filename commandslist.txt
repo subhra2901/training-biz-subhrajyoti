@@ -439,3 +439,4 @@ cd ec2-user/
 pwd
 ping example.com
 telnet example.com
+nslookup example.com
