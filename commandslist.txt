@@ -417,3 +417,5 @@ wc -l file2.txt
 crontab
 cron tab -l
 crontab -l
+grep '.txt'
+grep 'I' file1.txt
